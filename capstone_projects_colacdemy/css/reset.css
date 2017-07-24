@@ -1,0 +1,53 @@
+/* Basic styles to be used with all devices and under all conditions */
+
+article, aside, figcaption, figure,
+ header, main, nav, section { 
+   display: block;
+}
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, 
+header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+h2{
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+}
+h3{
+   color: black;
+   font-weight: 600;
+}
+ h5,li,a{
+  color: #7F7C7B;
+ }
+/* Set the default page element styles */
+
+/*body {
+   line-height: 1.2em;
+}*/
+
+ul, ol {
+   list-style: none;
+}
+
+ul,li {
+   list-style: none;
+   list-style-image: none;
+}
+
+a {
+   text-decoration: none;
+}
+
